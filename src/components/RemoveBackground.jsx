@@ -5,8 +5,8 @@ const RemoveBackground = () => {
   const [bgRemove, setBgRemove] = useState(null);
 
   const handleRemoveBackground = async () => {
-    const apiKey = process.env.REACT_APP_REMOVE_BG_API_KEY;
-    const apiUrl = "https://api.remove.bg/v1.0/removebg";
+    const apiKey = import.meta.env.VITE_REMOVE_BG_API_KEY;
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     const formData = new FormData();
     formData.append("image_file", image, image.name);
