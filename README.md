@@ -1,2 +1,8 @@
-# React-Background-Remove-Tools
-Create a tool for instant background removal from images using advanced processing. The user-friendly interface allows effortless uploads, delivering professionally cleaned subjects for various creative uses. The goal is a quick and efficient solution for enhancing image visuals with minimal user effort.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
